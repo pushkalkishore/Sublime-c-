@@ -20,7 +20,7 @@ int32_t main()
     cin>>t;
     while(t--)
     {
-       cout<<"hello world";
+       cout<<"hello world"<<endl;
     }
 
     return 0;
