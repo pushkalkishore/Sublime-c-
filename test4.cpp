@@ -8,16 +8,8 @@ using namespace std;
 
 int32_t main()
 {
-
-
-    #ifndef ONLINE_JUDGE
-        freopen("input.txt","r",stdin);
-        freopen("output.txt","w",stdout);
-    #endif
-
-
+    
     int t;cin>> t;
-    cin>>t;
     while(t--)
     {
        cout<<"hello world"<<endl;

@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define int long long
+
 #define rep(i,a,b) for (int i=a; i<b; i++)
 
 #define vi vector<int>
@@ -20,43 +22,16 @@ int32_t main()
     int t; cin >> t;
     while (t--)
     {
-        int n;
-        cin >> n ;
-
-        int s1 = n;
-        int s2 = n - 1;
-        vector<int> v1, v2;
-        v1.push_back(s1); v2.push_back(s2);
-
-        for (int i = n - 2; i >= 1; i--)
+        int n, m;
+        cin >> n >> m;
+        if (n == 1 and m == 1)
         {
-            if (s1 >= s2)
-            {
-                s2 = s2 + i;
-                v2.push_back(i);
-            }
-            else
-            {
-                s1 = s1 + i;
-                v1.push_back(i);
-            }
+            cout << 0 << endl;
+            continue;
         }
-
-
-        int a = v1.size();
-
-        for (auto it : v2)
-            cout << it << " ";
-
-
-        for (int i = a - 1; i >= 0; i--)
-        {
-            cout << v1[i] << " ";
-        }
-
-
-        cout << endl;
-
+        int ans = n + m - 2;
+        ans += min(n, m);
+        cout << ans << endl;
     }
 
 
