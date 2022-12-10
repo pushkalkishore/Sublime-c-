@@ -43,11 +43,6 @@ int32_t main()
 {
 
 
-#ifndef ONLINE_JUDGE
-	freopen("input.txt", "r", stdin);
-	freopen("output.txt", "w", stdout);
-#endif
-
 
 	int ar[] = {1, 2, 1};
 	int  n = 3;
@@ -56,6 +51,8 @@ int32_t main()
 	vector<int> v;
 
 	cout << printa(0, v, 0, sum, n, ar);
+
+	// cout << "hello world" << endl;
 
 	return 0;
 }
