@@ -52,7 +52,5 @@ int32_t main()
 
 	cout << printa(0, v, 0, sum, n, ar);
 
-	// cout << "hello world" << endl;
-
 	return 0;
 }

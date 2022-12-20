@@ -1,0 +1,1 @@
+{"name":"Local: substring","url":"/Users/pushkalkishore/Documents/Sublime-c-/substring.cpp","tests":[{"id":1670818412625,"input":"3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/pushkalkishore/Documents/Sublime-c-/substring.cpp","group":"local","local":true}
